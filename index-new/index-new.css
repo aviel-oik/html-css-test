@@ -8,25 +8,20 @@ body {
 
 header {
   background-color: #ffffff;
-  /* padding: 10px; */
   text-align: center;
   font-size: 15px;
 }
 
-/* Create three unequal columns that floats next to each other */
 .column {
 
   float:left;
-  /* padding: 10px; */
-  height: 300px; /* Should be removed. Only for demonstration */
+  height: 300px; 
 }
 
-/* Left and right column */
 .column.side {
   width: 25%;
 }
 
-/* Middle column */
 .column.middle {
   width: 50%;
 }
@@ -42,8 +37,6 @@ header {
 }
 
 body header nav ul{
-    /* list-style-type: none;
-    overflow: hidden; */
     background-color: rgb(255, 255, 255);
     display: inline-block;
 }
